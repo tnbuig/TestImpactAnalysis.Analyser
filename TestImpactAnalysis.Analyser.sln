@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestImpactAnalysis.Analyser", "TestImpactAnalysis.Analyser\TestImpactAnalysis.Analyser.csproj", "{36AF9FB0-4758-450D-962F-2C5D6E23D208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestImpactAnalysis.AnalyserTests", "TestImpactAnalysis.AnalyserTests\TestImpactAnalysis.AnalyserTests.csproj", "{B13C7B9C-C231-4014-AC5E-B5E0B628950D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.TestImpactAnalysis.AnalyserTests", "NetCore.TestImpactAnalysis.AnalyserTests\NetCore.TestImpactAnalysis.AnalyserTests.csproj", "{A614D8EC-9F7F-4FB0-B402-36672AA78D69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{36AF9FB0-4758-450D-962F-2C5D6E23D208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36AF9FB0-4758-450D-962F-2C5D6E23D208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36AF9FB0-4758-450D-962F-2C5D6E23D208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13C7B9C-C231-4014-AC5E-B5E0B628950D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13C7B9C-C231-4014-AC5E-B5E0B628950D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13C7B9C-C231-4014-AC5E-B5E0B628950D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13C7B9C-C231-4014-AC5E-B5E0B628950D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A614D8EC-9F7F-4FB0-B402-36672AA78D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A614D8EC-9F7F-4FB0-B402-36672AA78D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A614D8EC-9F7F-4FB0-B402-36672AA78D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A614D8EC-9F7F-4FB0-B402-36672AA78D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
