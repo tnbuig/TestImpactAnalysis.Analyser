@@ -45,7 +45,7 @@
     <Compile Include="Interface\IAnalyserConfiguration.cs" />
     <Compile Include="Interface\ITestImpactAnaylser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Implementation\TestImapatAnaylserFactory.cs" />
+    <Compile Include="Implementation\TestImpactAnaylserFactory.cs" />
     <Compile Include="Implementation\TestImpactAnaylser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
