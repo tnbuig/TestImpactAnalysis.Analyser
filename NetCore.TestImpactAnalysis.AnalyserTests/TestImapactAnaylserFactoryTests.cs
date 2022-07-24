@@ -8,19 +8,19 @@ using TestImpactAnalysis.Analyser.Interface;
 namespace TestImpactAnalysis.AnalyserTests
 {
     [TestFixture]
-    public class TestImapatAnaylserFactoryTests
+    public class TestImapactAnaylserFactoryTests
     {
         private const string repoName = "TestImpactAnalysis.DemoSolution";
         private const string repoPath = @"C:\Airport\Programming\Projects\TestImpactAnalysis.DemoSolution";
 
         [Test]
-        public void TestImapatAnaylserFactory_CreateAnalyser_Sucssful()
+        public void TestImapactAnaylserFactory_CreateAnalyser_Sucssful()
         {
             // Arrange - Create analyzerConfiguration object
             var analyzerConfiguration = CreateAnalyzerCongifuation();
 
             // Act - Create Analyser instance
-            var testImpactAnalyserFactory = new TestImapatAnaylserFactory();
+            var testImpactAnalyserFactory = new TestImpactAnaylserFactory();
             var testImpactAnalyser = testImpactAnalyserFactory.CreateAnalyzerForRepo(analyzerConfiguration);
 
             // Assert

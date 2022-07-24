@@ -2,7 +2,7 @@
 
 namespace TestImpactAnalysis.Analyser.Implementation
 {
-    public class TestImapatAnaylserFactory
+    public class TestImpactAnaylserFactory
     {
         public ITestImpactAnaylser CreateAnalyzerForRepo(IAnalyserConfiguration analyserConfiguration)
         {

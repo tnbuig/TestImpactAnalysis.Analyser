@@ -9,7 +9,7 @@ using TestImpactAnalysis.Analyser.Interface;
 namespace TestImpactAnalysis.AnalyserTests
 {
     [TestFixture]
-    public class TestImapatAnaylserTests
+    public class TestImpactAnaylserTests
     {
         private const string repoName = "TestImpactAnalysis.DemoSolution";
         private const string repoPath = @"C:\Airport\Programming\Projects\TestImpactAnalysis.DemoSolution";
@@ -22,7 +22,7 @@ namespace TestImpactAnalysis.AnalyserTests
         {
             // Arrange - Create Analyser instance
             var analyzerConfiguration = CreateAnalyzerCongifuation();
-            var testImpactAnalyserFactory = new TestImapatAnaylserFactory();
+            var testImpactAnalyserFactory = new TestImpactAnaylserFactory();
             var testImpactAnalyser = testImpactAnalyserFactory.CreateAnalyzerForRepo(analyzerConfiguration);
 
             // Act
@@ -37,7 +37,7 @@ namespace TestImpactAnalysis.AnalyserTests
         {
             // Arrange - Create Analyser instance
             var analyzerConfiguration = CreateAnalyzerCongifuation();
-            var testImpactAnalyserFactory = new TestImapatAnaylserFactory();
+            var testImpactAnalyserFactory = new TestImpactAnaylserFactory();
             var testImpactAnalyser = testImpactAnalyserFactory.CreateAnalyzerForRepo(analyzerConfiguration);
 
             // Act
@@ -52,7 +52,7 @@ namespace TestImpactAnalysis.AnalyserTests
         {
             // Arrange - Create Analyser instance
             var analyzerConfiguration = CreateAnalyzerCongifuation();
-            var testImpactAnalyserFactory = new TestImapatAnaylserFactory();
+            var testImpactAnalyserFactory = new TestImpactAnaylserFactory();
             var testImpactAnalyser = testImpactAnalyserFactory.CreateAnalyzerForRepo(analyzerConfiguration);
 
             // Act
